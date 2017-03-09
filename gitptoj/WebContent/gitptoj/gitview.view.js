@@ -5,6 +5,8 @@ sap.ui.jsview("gitptoj.gitview", {
 	* @memberOf gitptoj.gitview
 	*/ 
 	//branch2
+		//branch1
+	//branch1 change
 	getControllerName : function() {
 		return "gitptoj.gitview";
 	},
@@ -15,7 +17,7 @@ sap.ui.jsview("gitptoj.gitview", {
 	*/ 
 	createContent : function(oController) {
  		return new sap.m.Page({
-			title: "Title branch 2",
+			title: "Title branch 2 and 1",
 			content: [
 			
 			]
