@@ -4,6 +4,8 @@ sap.ui.jsview("gitptoj.gitview", {
 	* In the case that it is not implemented, or that "null" is returned, this View does not have a Controller.
 	* @memberOf gitptoj.gitview
 	*/ 
+	//branch1
+	//branch1 change
 	getControllerName : function() {
 		return "gitptoj.gitview";
 	},
@@ -14,7 +16,7 @@ sap.ui.jsview("gitptoj.gitview", {
 	*/ 
 	createContent : function(oController) {
  		return new sap.m.Page({
-			title: "Title",
+			title: "Title Branch1",
 			content: [
 			
 			]
