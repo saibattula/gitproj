@@ -19,7 +19,7 @@ sap.ui.jsview("gitptoj.gitview", {
  		return new sap.m.Page({
 			title: "Title branch 2 and 1",
 			content: [
-			
+			//Test comments
 			]
 		});
 	}
